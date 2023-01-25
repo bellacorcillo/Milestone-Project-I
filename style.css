@@ -6,37 +6,44 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+
 body{
   display: flex;
-  padding: 0 10px;
   min-height: 50vh;
   align-items: left;
   justify-content: left;
   background-image: url("/Users/isabellacorcillo/Documents/GitHub/Milestone-Project-I/images/Background II.jpeg");
 }
+
 .wrapper{
-  width: 800px;
+  width: 1000px;
   background: #fff;
   border-radius: 10px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
+
 .wrapper h1{
   font-size: 25px;
   font-weight: 500;
   padding: 20px 25px;
   border-bottom: 1px solid #ccc;
 }
+
 .wrapper .content{
-  margin: 15px 15px 15px;
+  margin: 25px 35px 15px;
+  max-width: auto;
+  min-width: auto;
 }
+
 .content .inputs{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .inputs input{
-  height: 57px;
-  width: 56px;
+  height: 35px;
+  width: 25px;
   margin: 4px;
   font-size: 24px;
   font-weight: 500;
@@ -78,29 +85,4 @@ body{
 }
 .content .reset-btn:hover{
   background: #75b9c4;
-}
-@media screen and (max-width: 460px) {
-  .wrapper {
-    width: 100%;
-  }
-  .wrapper h1{
-    font-size: 22px;
-    padding: 16px 20px;
-  }
-  .wrapper .content{
-    margin: 25px 20px 35px;
-  }
-  .inputs input{
-    height: 51px;
-    width: 50px;
-    margin: 3px;
-    font-size: 22px;
-  }
-  .details p{
-    font-size: 17px;
-  }
-  .content .reset-btn{
-    padding: 14px 0;
-    font-size: 16px;
-  }
 }
