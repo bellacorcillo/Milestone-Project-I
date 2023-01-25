@@ -1,10 +1,11 @@
 /* Import Google font - Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
 }
 
 body{
@@ -31,6 +32,7 @@ p {
   background: #fff;
   border-radius: 10px;
   box-shadow: 50px 10px 25px rgba(0, 0, 0, 0);
+  font-family: 'Unbounded', cursive;
   font-size: 15px;
   font-weight: 500;
   padding: 20px 25px;
