@@ -111,4 +111,4 @@ const wordList = [
         word: "lady on display",
         hint: "a woman engaging in the courting season"
     }
-        
+]
