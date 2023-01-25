@@ -23,7 +23,7 @@ p {
 }
 
 #container {
-   margin: 25px;
+   margin: 25px 25px;
    border: 10px solid #aa5dc0;
 }
 
@@ -99,6 +99,7 @@ h1 {
   font-size: 19px;
   margin-bottom: 10px;
 }
+
 .content .reset-btn{
   width: 100%;
   border: 3px solid #75b9c4;
@@ -120,3 +121,4 @@ h1 {
 .content .reset-btn:hover{
   background: #75b9c4;
 }
+
