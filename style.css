@@ -23,11 +23,10 @@ p {
 }
 
 #container {
-   margin: 300px 25px 25px 25px;
-   border-color: #aa5dc0;
-   border-style: solid;
-   border-width: 10px
+   margin: 25px;
+   border: 10px solid #aa5dc0;
 }
+
 
 .wrapper{
   width: 1000px;
@@ -35,8 +34,8 @@ p {
   border-radius: 10px;
   box-shadow: 50px 10px 25px rgba(0, 0, 0, 0);
   font-family: 'Monsieur La Doulaise', cursive;
-  font-size: 25px;
-  font-weight: 500;
+  font-size: 35px;
+  font-weight: 750;
   text-align: left;
   padding: 20px 25px;
   border-bottom: 1px solid #ccc;
@@ -45,12 +44,18 @@ p {
 
 h1 {
     color: rgb(255, 255, 255);
-    text-shadow: 3px 3px 3px #000000;
+    text-shadow: 10px 3px 10px #000000;
     text-align: center;
     font-family: 'Unbounded', cursive;
     font-size: 60px;
     padding: 20px 25px;
     background-image: url("/Users/isabellacorcillo/Documents/GitHub/Milestone-Project-I/images/Wisteria-Background-Border-Bloom-Flowers-Spring-6363015.jpg");
+    border: 5px solid #75b9c4;
+}
+
+.content {
+    font-family: 'Unbounded', cursive;
+    font-size: 25px;
 }
 
 .wrapper .content{
@@ -96,12 +101,14 @@ h1 {
 }
 .content .reset-btn{
   width: 100%;
-  border: 3px solid pink;
+  border: 3px solid #75b9c4;
   cursor: pointer;
   color: #fff;
   outline: none;
+  font-family: 'Monsieur La Doulaise', cursive;
   padding: 15px 15px;
-  font-size: 17px;
+  font-size: 50px;
+  font-weight: 500;
   border-radius: 5px;
   background: #aa5dc0;
   transition: all 0.3s ease;

@@ -10,8 +10,9 @@
     <div class="wrapper" id="container">
       <h1>Guess the Word: Bridgerton Edition</h1>
       <p>Dearest Readers,</p>
-        <p>You'll need to be well-versed in your 'regency' vocabulary to do well this season.</p>
-        <p> Type a letter to begin guessing. If you think you know the word, type the word in it's entirety!</p>
+        <p>The ton is abuzz with the latest gossip - there's a new game to pass the time! Learn all of your favorite Bridgerton-inspired vocabulary with a fun, 'guess the word' game that will bring all of your favorite 'barbs' to life.</p>
+        <p> To start your game, simply type any letter you wish to begin guessing. If you think you know the word, type the word in it's entirety!</p>
+        <p>Yours Truly, Lady Whistledown</p>
       <div class="content">
         <input type="text" class="typing-input" maxlength="1">
         <div class="inputs"></div>
@@ -22,8 +23,12 @@
         </div>
         <button class="reset-btn">Start Again</button>
       </div>
-    </div>
-    <script src="words.js"></script>
-    <script src="script.js"></script>
+
+      <div id="audio-player-container">
+        <p>Audio Player</p>
+        <!-- swaps with pause icon -->
+        <button id="play-icon"></button>
+      </div>
+
   </body>
 </html>
