@@ -24,16 +24,8 @@ const wordList = [
         hint: "a nobility title that is above a baron but below a duke"
     },
     {
-        word: "diamond of the first water",
-        hint: "a debutant that has got it going on"
-    },
-    {
         word: "courtship",
         hint: "exploring a relationship with intention of marriage"
-    },
-    {
-        word: "dance card",
-        hint: "card on wrist of lady with dance partners"
     },
     {
         word: "debutante",
@@ -42,19 +34,11 @@ const wordList = [
     {
         word: "dowry",
         hint: "a payment made by a bride's family to the groom"
-    },
-    {
-        word: "grosvenor square",
-        hint: "a garden square in the Mayfair district of London"
-    },
+    },  
     {
         word: "heir",
         hint: "the eldest son who will inherit the property and rank of a family"
-    },
-    {
-        word: "love match",
-        hint: "a marriage founded on love"
-    },
+    },  
     {
         word: "mayfair",
         hint: "an exlusive district in london"
@@ -66,11 +50,7 @@ const wordList = [
     {
         word: "regency",
         hint: "the period in english history between 1811 - 1820"
-    },
-    {
-        word: "rotten row",
-        hint: "a walkway in london known as a meeting spot for the fashionable upper-class"
-    },
+    },   
     {
         word: "spinster",
         hint: "an unmarried woman beyond the eligible age of marriage"
@@ -90,15 +70,7 @@ const wordList = [
     {
         word: "fortnight",
         hint: "a period of two weeks time"
-    },
-    {
-        word: "drawing room",
-        hint: "a place for a host to entertain guests"
-    },
-    {
-        word: "high in the instep",
-        hint: "a snobby or arrogant person"
-    },
+    },  
     {
         word: "venice",
         hint: "famous city of waters"
@@ -106,9 +78,5 @@ const wordList = [
     {
         word: "frock",
         hint: "a dress"
-    },
-    {
-        word: "lady on display",
-        hint: "a woman engaging in the courting season"
-    }
+    },   
 ]

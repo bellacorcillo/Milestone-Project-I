@@ -15,24 +15,40 @@ body{
   background-image: url("/Users/isabellacorcillo/Documents/GitHub/Milestone-Project-I/images/Background II.jpeg");
 }
 
+p {
+    margin: 25px 35px 15px;
+}
+
+#container {
+   margin: 300px 25px 25px 25px;
+   border-color: #aa5dc0;
+   border-style: solid;
+   border-width: 10px
+}
+
 .wrapper{
   width: 1000px;
   background: #fff;
   border-radius: 10px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-}
-
-.wrapper h1{
-  font-size: 25px;
+  box-shadow: 50px 10px 25px rgba(0, 0, 0, 0);
+  font-size: 15px;
   font-weight: 500;
   padding: 20px 25px;
   border-bottom: 1px solid #ccc;
 }
 
+
+h1 {
+    color: white;
+    text-shadow: 1px 1px 2px #9460ac;
+    font-size: xxx-large;
+    padding: 20px 25px;
+    background-image: url("/Users/isabellacorcillo/Documents/GitHub/Milestone-Project-I/images/Wisteria BG Image.jpeg")
+}
+
 .wrapper .content{
   margin: 25px 35px 15px;
-  max-width: auto;
-  min-width: auto;
+
 }
 
 .content .inputs{
@@ -73,16 +89,20 @@ body{
 }
 .content .reset-btn{
   width: 100%;
-  border: none;
+  border: 3px solid pink;
   cursor: pointer;
   color: #fff;
   outline: none;
-  padding: 15px 0;
+  padding: 15px 15px;
   font-size: 17px;
   border-radius: 5px;
   background: #aa5dc0;
   transition: all 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 .content .reset-btn:hover{
   background: #75b9c4;
 }
