@@ -22,9 +22,13 @@ p {
     text-align: left;
 }
 
+
+
 #container {
-   margin: 25px 25px;
+   width: 800px;
+   margin: 35px 35px;
    border: 10px solid #aa5dc0;
+   padding: 25px;
 }
 
 
@@ -34,7 +38,7 @@ p {
   border-radius: 10px;
   box-shadow: 50px 10px 25px rgba(0, 0, 0, 0);
   font-family: 'Monsieur La Doulaise', cursive;
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 750;
   text-align: left;
   padding: 20px 25px;
@@ -47,7 +51,7 @@ h1 {
     text-shadow: 10px 3px 10px #000000;
     text-align: center;
     font-family: 'Unbounded', cursive;
-    font-size: 60px;
+    font-size: 50px;
     padding: 20px 25px;
     background-image: url("https://hosting.photobucket.com/images/v421/jmhstar1211/Wisteria-Background-Border-Bloom-Flowers-Spring-6363015.jpg");
     border: 5px solid #75b9c4;
@@ -70,8 +74,8 @@ h1 {
 }
 
 .inputs input{
-  height: 35px;
-  width: 25px;
+  height: 65px;
+  width: 50px;
   margin: 4px;
   font-size: 24px;
   font-weight: 500;
@@ -96,19 +100,20 @@ h1 {
   margin: 20px 0 25px;
 }
 .details p{
-  font-size: 19px;
+  font-size: 15px;
   margin-bottom: 10px;
 }
 
 .content .reset-btn{
-  width: 100%;
-  border: 3px solid #75b9c4;
+  width: 35%;
+  height: 25px;
+  border: 4px solid #75b9c4;
   cursor: pointer;
   color: #fff;
   outline: none;
-  font-family: 'Monsieur La Doulaise', cursive;
-  padding: 15px 15px;
-  font-size: 50px;
+  font-family: 'Unbounded', cursive;
+  padding: 25px 10px;
+  font-size: 25px;
   font-weight: 500;
   border-radius: 5px;
   background: #aa5dc0;
@@ -116,9 +121,9 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 25px;
 }
 
 .content .reset-btn:hover{
   background: #75b9c4;
 }
-
