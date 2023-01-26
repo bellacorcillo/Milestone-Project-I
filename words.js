@@ -76,7 +76,32 @@ const wordList = [
         hint: "famous city of waters"
     },
     {
-        word: "frock",
-        hint: "a dress"
+        word: "amiable",
+        hint: "friendly or pleasant manner"
     },   
+    {
+        word: "chemise",
+        hint: "a shirt like under dress"
+    }, 
+    {
+        word: "dowager",
+        hint: "a widow with a title or property"
+    }, 
+    {
+        word: "incomparable",
+        hint: "a female of the ton without rival"
+    }, 
+    {
+        word: "engagement",
+        hint: "a promise or agreement of marriage"
+    }, 
+    {
+        word: "detestable",
+        hint: "abhorrant or something detested"
+    }, 
+    {
+        word: "quadrille",
+        hint: "a square dance for couples"
+    }, 
+
 ]
