@@ -15,6 +15,7 @@ body{
   align-items: left;
   justify-content: left;
   background-image: url("https://hosting.photobucket.com/images/v421/jmhstar1211/Background_II.jpeg");
+  cursor: url("https://hosting.photobucket.com/images/v421/jmhstar1211/Quill_Transparent_Resized_for_Pointer_hWJkUTQha2vJ6xx56hpqkK.png"), pointer;
 }
 
 p {
@@ -126,8 +127,4 @@ h1 {
 
 .content .reset-btn:hover{
   background: #75b9c4;
-}
-
-#audio-button {
-  position:;
 }
