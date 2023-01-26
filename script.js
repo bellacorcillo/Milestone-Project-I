@@ -40,10 +40,10 @@ function initGame(e) {
     typingInput.value = "";
     setTimeout(() => {
         if(correctLetters.length === word.length) {
-            alert(`Congrats! You found the word ${word.toUpperCase()}`);
+            alert(`Congrats, Dearest Reader! You found the word ${word.toUpperCase()}`);
             return randomWord();
         } else if(maxGuesses < 1) {
-            alert("Game over! You don't have remaining guesses");
+            alert("My most sincere apologies, Dearest Reader! You don't have remaining guesses.");
             for(let i = 0; i < word.length; i++) {
                 inputs.querySelectorAll("input")[i].value = word[i];
             }
