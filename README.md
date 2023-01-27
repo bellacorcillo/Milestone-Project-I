@@ -14,6 +14,8 @@ Sources Code Used:
 -Bootstrap
 -CodePen
 
+IMAGES FROM GOOGLE and housed on my personal photobucket account.
+
 **Sources are also listed in specific areas within the code**
 
 
