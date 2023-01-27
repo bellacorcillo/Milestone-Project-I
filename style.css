@@ -32,7 +32,7 @@ p {
    padding: 25px;
 }
 
-
+/* Contains elements inside game */
 .wrapper{
   width: 1000px;
   background: #fff;
@@ -46,7 +46,7 @@ p {
   border-bottom: 1px solid #ccc;
 }
 
-
+/* Separate header for design */
 h1 {
     color: rgb(255, 255, 255);
     text-shadow: 10px 3px 10px #000000;

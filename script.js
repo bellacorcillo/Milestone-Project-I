@@ -1,9 +1,18 @@
+// Create input field with the disabled attribute so that users cannot submit their guesses until they have entered all letters of the word
+
 const inputs = document.querySelector(".inputs"),
 hintTag = document.querySelector(".hint span"),
 guessLeft = document.querySelector(".guess-left span"),
 wrongLetter = document.querySelector(".wrong-letter span"),
 resetBtn = document.querySelector(".reset-btn"),
 typingInput = document.querySelector(".typing-input");
+
+// Build out word list on separate script.js
+//Max Guesses: 8
+//set word selector to random
+//set up alert box
+//code below is from *codewithrandom word guessing game*
+
 let word, maxGuesses, incorrectLetters = [], correctLetters = [];
 function randomWord() {
     let ranItem = wordList[Math.floor(Math.random() * wordList.length)];
