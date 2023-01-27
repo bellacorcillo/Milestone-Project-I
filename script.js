@@ -1,4 +1,5 @@
 // Create input field with the disabled attribute so that users cannot submit their guesses until they have entered all letters of the word
+//pieces of code below was built following codepen 'build a word guessing game'*
 
 const inputs = document.querySelector(".inputs"),
 hintTag = document.querySelector(".hint span"),
@@ -11,7 +12,6 @@ typingInput = document.querySelector(".typing-input");
 //Max Guesses: 8
 //set word selector to random
 //set up alert box
-//code below is from *codewithrandom word guessing game*
 
 let word, maxGuesses, incorrectLetters = [], correctLetters = [];
 function randomWord() {
