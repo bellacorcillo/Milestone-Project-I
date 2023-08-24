@@ -1,0 +1,25 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Unbounded&display=swap');
+
+// Variables
+$primary-color: #aa5dc0;
+$secondary-color: #75b9c4;
+$border-color: #B5B5B5;
+$text-color: #9460ac;
+
+// Global Styles
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  min-height: 50vh;
+  align-items: left;
+  justify-content: left;
+  background-image: url("https://hosting.photobucket.com/images/v421/jmhstar1211/Background_II.jpeg");
+}
