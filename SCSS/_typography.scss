@@ -1,24 +1,24 @@
 p, .content {
-    font-family: 'Unbounded', cursive;
-    text-align: left;
-    margin: 25px 35px 15px;
-    font-size: 25px;
-  
-    .details {
-      p {
-        font-size: 15px;
-        margin-bottom: 10px;
-      }
+  font-family: 'Monsieur La Doulaise', cursive; // Changed to 'Monsieur La Doulaise'
+  text-align: left;
+  margin: 25px 35px 15px;
+  font-size: 25px;
+
+  .details {
+    p {
+      font-size: 15px;
+      margin-bottom: 10px;
     }
   }
-  
-  h1 {
-    color: rgb(255, 255, 255);
-    text-shadow: 10px 3px 10px #000000;
-    text-align: center;
-    font-family: 'Unbounded', cursive;
-    font-size: 50px;
-    padding: 20px 25px;
-    background-image: url("https://hosting.photobucket.com/images/v421/jmhstar1211/Wisteria-Background-Border-Bloom-Flowers-Spring-6363015.jpg");
-    border: 5px solid $secondary-color;
-  }  
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  text-shadow: 10px 3px 10px #000000;
+  text-align: center;
+  font-family: 'Monsieur La Doulaise', cursive; // Changed to 'Monsieur La Doulaise'
+  font-size: 50px;
+  padding: 20px 25px;
+  background-image: url("https://hosting.photobucket.com/images/v421/jmhstar1211/Wisteria-Background-Border-Bloom-Flowers-Spring-6363015.jpg");
+  border: 5px solid $secondary-color;
+}
